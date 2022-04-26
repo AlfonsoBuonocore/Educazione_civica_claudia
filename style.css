@@ -38,12 +38,17 @@ nav{
 }
 .icona{
     display: flexbox;
-    height: 180px;
-    width: 10%;
-    background: url(asset/img/icona.png);
+    height: fit-content;
+    width: fit-content;
     background-position: 50%;
     background-repeat: no-repeat;
     margin: 15px 0;
+}
+.icona img{
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(10px 10px 0 rgba(255,255,255,.2)); 
+    box-shadow: 0 0 10px rgba(255,255,255,1);
 }
 a{
     width: 100%;
@@ -55,7 +60,7 @@ a{
 .sub-menu{
     position: absolute;
     width: 70%;
-    background: #362727;
+    background: rgb(54, 39, 39);
     top: 60%;
     left: 50%;
     transform: translateX(-50%);
@@ -68,6 +73,8 @@ a{
     list-style-type: disc;
     overflow: hidden;
     text-overflow: ellipsis;
+    filter: drop-shadow(0 0 10px rgba(54, 39, 39)); 
+
 }
 li:hover .sub-menu{
     top: 100%;
