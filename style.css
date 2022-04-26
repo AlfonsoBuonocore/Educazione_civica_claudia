@@ -12,7 +12,7 @@ body{
     height: 100vh;
     background: #191919;
     color: bisque;
-    font-size: calc(100vh / 70);
+    font-size: calc(100vw / 125);
 }
 header{
     margin: 0 0 50px 0;
@@ -33,6 +33,7 @@ nav{
     width: calc(100% / 7);
     background-color: #241313;
     height: 50px;
+    padding: 0 10px;
     text-align: left;
 }
 .icona{
