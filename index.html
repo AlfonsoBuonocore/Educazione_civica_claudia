@@ -5,88 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-
-        <style>
-            * {
-                padding: 0;
-                margin: 0;
-            	box-sizing: border-box;
-            }
-            body{
-                height: 100vh;
-            }
-            header{
-                margin: 0 0 50px 0;
-            }
-            input{
-                visibility: hidden;
-            }
-            nav{
-                width: 100%;
-            }
-            .menu{
-                display: flex;
-                flex-direction: row;
-                list-style-type: none;
-                width: 100%;
-            }
-            .menu li:not(.sub-menu li){
-                position: relative;
-                text-transform: uppercase;
-                width: calc(100% / 7);
-                background-color: yellow;
-                border: red solid 1px;
-                height: 50px;
-                text-align: center;
-            }
-            .icona{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 80px;
-            }
-            a{
-                width: 100%;
-                height: 100%;
-                display: inline-flex;
-                justify-content: center;
-                align-items: center;
-            }
-            .sub-menu{
-                position: absolute;
-                top: 80%;
-                min-height: fit-content;
-                visibility: hidden;
-                opacity: 0;
-                transition: all .2s linear;
-                text-align: left;
-                padding-left: 20px;
-                list-style-type: disc;
-            }
-            li:hover .sub-menu{
-                top: 100%;
-                visibility: visible;
-                opacity: 1;
-            }
-            section{
-                width: 100%;
-                text-align: center;
-            }
-            video{
-                opacity: 0;
-            }
-            video:hover{
-                opacity: 1;
-            }
-        </style>
-
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="icona">
-            ciaojfjdnshnj
-        </div>
-
-        </div>
+        <div class="icona"></div>
         <header>
             <nav>
                 <ul class="menu">
@@ -144,17 +66,10 @@
         </header>
         <section>
             <div class="video">
-                <video width="80%" controls autoplay loop>
-                    <source src="asset/video.mp4" type="video/mp4">
-                  </video> 
+                <video loop autoplay>
+                    <source src="asset/video/WORK.mp4" type="video/mp4">
+                </video> 
             </div>
         </section>
-        <ul style="margin-left: 50px;">
-            <li>erhivef</li>
-            <li>svdfsv</li>
-            <li>seevf<li>
-            <li>sdfvdfs</li>
-            <li>sdvdfs</li>
-        </ul>
     </body>
 </html>
