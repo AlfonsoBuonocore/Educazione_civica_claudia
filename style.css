@@ -54,6 +54,7 @@ a:not(.sub-menu li a){
     align-items: center;
 }
 .sub-menu{
+    padding: 10px;
     position: absolute;
     width: 70%;
     background: rgb(54, 39, 39);
